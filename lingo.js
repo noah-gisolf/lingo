@@ -24,7 +24,6 @@ function compareWords(){
         if(words[attempts][i] === currentWord[i]){
             reset();
             correctLetters[i] = currentWord[i];
-
         }
     }
 }
@@ -65,3 +64,6 @@ for(var i = 0; i < 5; i++){
         rows[i].innerHTML += "<div></div>";
     }
 };
+
+
+//if (correctLetters.positionOf(words[attempts])>1)
