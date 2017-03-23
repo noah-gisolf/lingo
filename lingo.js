@@ -5,7 +5,8 @@ var currentWord = getRandomWord();
 var words = [];
 var correctLetters = [currentWord[0],"","","",""];
 var attempts = 0;
-  function getRandomWord(){
+
+function getRandomWord(){
     return words[Math.floor(Math.random() * (words.length -1))];
 }
   console.log(currentWord);
